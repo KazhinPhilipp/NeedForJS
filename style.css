@@ -50,10 +50,11 @@ table {
 .enemy {
     width: 50px;
     height: 100px;
-    background: transparent url("./image/car.png") center / cover no-repeat;
     position: absolute;
-    left: calc(150px - 25px);
-    bottom: 10px;
+}
+
+.car {
+    background: transparent url("./image/car.png") center / cover no-repeat;
 }
 
 .game-area {
@@ -71,4 +72,34 @@ table {
     height: 50px;
     background: #fff;
     left: calc(150px - 5px);
+}
+
+.start {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    z-index: 200;
+    color: #ffffff;
+    font-size: 1.5rem;
+    background: #000000;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.score {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000000;
+    padding: 1rem 0;
+    z-index: 200;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
 }
